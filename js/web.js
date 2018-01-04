@@ -1,5 +1,5 @@
 $(document).ready(function() {
-  window.onload = function() {$('body').removeClass('body::after').fadeIn(1000);
+  window.onload = function() {$('body').removeClass('body::after').hide().fadeIn(1000);
 };
 });
 
