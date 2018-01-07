@@ -1,0 +1,16 @@
+.landing_img{
+  min-width: 100%;
+  background-image: url('work/tivz/main_kiosk.png');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.text{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
