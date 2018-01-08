@@ -165,6 +165,7 @@ footer{
   padding-left: 5%;
   padding-right: 5%;
   padding-top: 20px;
+  border-top: 1px solid #ededed;
 }
 
 .footer_copyrights{

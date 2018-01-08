@@ -60,3 +60,14 @@ function hasScrolled() {
 
     lastScrollTop = st;
 }
+
+
+window.sr = ScrollReveal({ reset: true });
+sr.reveal('.foo-4', {
+  viewFactor: 0.5
+});
+
+// sr.reveal('.foo-2', {
+//   origin: 'right',
+//   duration: 1500
+// });
