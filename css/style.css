@@ -138,7 +138,7 @@ transition: 0.6s ease;
   background-color: black;
 }
 
-.container:hover .overlay {
+.work_container:hover .overlay {
   opacity: .2;
 }
 .work-name {

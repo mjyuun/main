@@ -1,0 +1,146 @@
+body{
+  background-color: #494949;
+}
+
+/*.gehry_landing_img{
+  background-image: url("../work/gehry/gehry_thumbnail.png");
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 500px;
+}*/
+.gehry_landing{
+  margin-top: 50px;
+  border-radius: 2px;
+  box-shadow: 2px 4px 20px #292929;
+}
+
+.landing_title{
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+  background-color: none;
+  background-position: top;
+}
+
+.text{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.body_text_container{
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.project_text_container{
+display: block;
+align-items: center;
+padding-top: 50px;
+padding-bottom: 50px;
+}
+.project_title{
+  font-size: 24px;
+  color: #26ffab;
+  text-align: center;
+}
+.project_description{
+  width: 400px;
+  margin-top: 10px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 300;
+  color: white;
+}
+
+.body_text_container{
+  padding: 50px 20%;
+  text-align: center;
+}
+
+.body_notification{
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  font-size: 18px;
+  font-style: italic;
+  color: #e9e9e9;
+  font-weight: 300;
+}
+
+.bodycopy_title{
+  text-align: left;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 26px;
+  width: 70%;
+  margin-bottom: 10px;
+}
+.body_line_container{
+  display: flex;
+  width: 100%;
+  /*justify-content: center;*/
+}
+
+.bodycopy_line{
+  /*margin-top: 20px;*/
+  margin-bottom: 10px;
+  width: 50px;
+  height: 5px;
+  background-color: #e9e9e9;
+}
+.bodycopy{
+  font-size: 16px;
+  font-weight: 200;
+  text-align: left;
+  width: 70%;
+  line-height: 26px;
+}
+.caption{
+  color: #aaaaaa;
+  font-size: 12px;
+  font-weight: 100;
+  margin-top: 10px;
+}
+.photo_container{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.hideme{
+  margin-top: 50px;
+  margin-top: 50px;
+
+  /*box-shadow: 0px 1px 20px 1px rgba(0, 0, 0, .1);*/
+  border-radius: 2px;
+  opacity:0;
+}
+
+.topnav{
+  background-color: transparent;
+}
+header{
+  background-color: transparent;
+}
+footer{
+  border-top: none;
+  background-color: #3d3d3d;
+}
+.footer_line{
+background-color: #26ffab;
+}
+.img_flex_container{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 100px;
+}
