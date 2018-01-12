@@ -58,7 +58,7 @@ padding-bottom: 50px;
   text-align: center;
   font-size: 18px;
   font-weight: 300;
-  color: white;
+  color: #aaaaaa;
 }
 
 .body_text_container{
@@ -72,7 +72,7 @@ padding-bottom: 50px;
   margin-bottom: 50px;
   font-size: 18px;
   font-style: italic;
-  color: #e9e9e9;
+  color: #aaaaaa;
   font-weight: 300;
 }
 
@@ -95,7 +95,7 @@ padding-bottom: 50px;
   margin-bottom: 10px;
   width: 50px;
   height: 5px;
-  background-color: #e9e9e9;
+  background-color: #26ffab;
 }
 .bodycopy{
   font-size: 16px;
@@ -109,6 +109,14 @@ padding-bottom: 50px;
   font-size: 12px;
   font-weight: 100;
   margin-top: 10px;
+  margin-bottom: 100px;
+}
+.caption_link{
+  color: #aaaaaa;
+  font-size: 12px;
+  margin-top: 10px;
+  margin-bottom: 100px;
+  text-decoration: underline;
 }
 .photo_container{
   width: 100%;
