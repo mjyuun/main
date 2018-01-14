@@ -31,8 +31,10 @@ color: #ffffff;
   font-family: "Georgia", serif;
 }
 .logo_design{
+  margin-left: -2px;
   font-size: 20px;
   font-weight: 400;
+  letter-spacing: -0.2px;
 }
 
 /*.logo_wh{
