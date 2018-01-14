@@ -1,6 +1,9 @@
 body{
   background-color: #494949;
 }
+body .hidden{
+  display: none;
+}
 
 /*.gehry_landing_img{
   background-image: url("../work/gehry/gehry_thumbnail.png");
@@ -101,7 +104,7 @@ padding-bottom: 50px;
   font-size: 16px;
   font-weight: 200;
   text-align: left;
-  width: 70%;
+  width: 80%;
   line-height: 26px;
 }
 .caption{
@@ -142,7 +145,7 @@ header{
 }
 footer{
   border-top: none;
-  background-color: #3d3d3d;
+  background-color: transparent;
 }
 .footer_line{
 background-color: #26ffab;
@@ -151,4 +154,5 @@ background-color: #26ffab;
   display: flex;
   justify-content: space-between;
   margin-bottom: 100px;
+
 }

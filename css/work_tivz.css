@@ -21,3 +21,6 @@
 .hideme{
   opacity: 0;
 }
+body .hidden{
+  display: none;
+}

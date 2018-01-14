@@ -1,5 +1,6 @@
 $(document).ready(function() {
-  window.onload = function() {$('body').removeClass('body::after').hide().fadeIn(1000);
+  window.onload = function() {
+    $('.body-wrapper').removeClass('.hidden').fadeIn(1000);
 };
 });
 
@@ -26,7 +27,7 @@ $(function() {
 var didScroll;
 var lastScrollTop = 0;
 var delta = 5;
-var navbarHeight = $('.topnav').outerHeight();
+var navbarHeight = $('header').outerHeight();
 
 $(window).scroll(function(event){
     didScroll = true;
