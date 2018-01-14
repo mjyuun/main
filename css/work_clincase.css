@@ -22,10 +22,17 @@ color: #ffffff;
 a:active {
 color: #ffffff;
 }
+.logo{
+  display: inline;
+}
 .logo_name{
   font-size: 20px;
   font-weight: bold;
   font-family: "Georgia", serif;
+}
+.logo_design{
+  font-size: 20px;
+  font-weight: 400;
 }
 
 /*.logo_wh{
