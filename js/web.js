@@ -108,3 +108,5 @@ $(document).ready(function() {
     });
 
 });
+
+$('#yourElement').addClass('animated bounceOutLeft');

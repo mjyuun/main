@@ -270,7 +270,7 @@ background-color: #26ffab;
 
 /*media query starts here*/
 
-@media only screen and (max-width: 650px) {
+@media only screen and (min-width: 375px) and (max-width: 375px){
   .title h1{
     font-size: 36px;
     padding-top: 100px;
@@ -310,7 +310,7 @@ background-color: #26ffab;
   }
 
 }
-@media only screen and (max-width: 375px) {
+@media only screen and (min-width: 375px) and (max-width: 375px) {
   .footer_text{
     display: block;
   }
