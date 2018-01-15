@@ -270,7 +270,10 @@ background-color: #26ffab;
 
 /*media query starts here*/
 
-@media only screen and (min-width: 375px) and (max-width: 375px){
+@media only screen
+and (min-device-width: 375px)
+and (max-device-height: 667px)
+and (-webkit-device-pixel-ratio : 2){
   .title h1{
     font-size: 36px;
     padding-top: 100px;
@@ -308,9 +311,6 @@ background-color: #26ffab;
     font-weight: 400;
     font-size: 10px;
   }
-
-}
-@media only screen and (min-width: 375px) and (max-width: 375px) {
   .footer_text{
     display: block;
   }
@@ -332,4 +332,76 @@ background-color: #26ffab;
   .email{
     margin-left: 0px;
   }
+  .ic_arrow_down_white{
+    padding-bottom: 150px;
+    width: 160px;
+  }
+  .work{
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+}
+@media only screen
+and (min-width: 375px)
+and (max-width: 667px){
+  .title h1{
+    font-size: 36px;
+    padding-top: 100px;
+    padding-bottom: 20px;
+    display: inline;
+    float: left;
+  }
+  .work{
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  .work_wrapper{
+    display: block;
+  }
+
+  footer{
+    /*height: 60px;*/
+    padding-left: 8%;
+    padding-right: 8%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .footer_copyrights{
+  display: flex;
+  justify-content: center;
+  }
+  .footer_line{
+    margin-top: 0px;
+    width: 30px;
+    height: 2px;
+    background-color: #26ffab;
+  }
+  .copyrights{
+    margin-top: 0px;
+    font-weight: 400;
+    font-size: 10px;
+  }
+  .footer_text{
+    display: block;
+  }
+  .ic_social{
+    width: 21px;
+    margin-left: 40px;
+
+    -webkit-transition: ease .3s; /* Safari */
+     transition: ease .3s;
+   }
+  .footer_ic_social{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .email{
+    margin-left: 0px;
+  }
+
 }
