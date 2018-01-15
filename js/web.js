@@ -1,12 +1,7 @@
-$(document).ready(function() {
-  window.onload = function() {
-    $('body').removeClass('.hidden').fadeIn(1000);
-};
-});
 
-/*$('.topnav').click(function(){
-  $('.topnav').hide();
-});*/
+$(function() {
+$('body').hide().fadeIn('slow');
+});
 
 $(function() {
   $('a[href*="#"]:not([href="#"])').click(function() {

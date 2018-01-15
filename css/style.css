@@ -6,10 +6,10 @@
   overflow-x: hidden;
 }
 
-body .hidden{
+/*body .hidden{
   display: none;
   background-color: #f9f9f9;
-}
+}*/
 
 #intro-text{
   text-align: center;
@@ -20,6 +20,9 @@ body {
     overflow-y: hidden;
     overflow-x: hidden;
 }
+/*body .hidden {
+    display: none;
+}*/
 header {
     background: transparent;
     height: 60px;
