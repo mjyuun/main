@@ -337,8 +337,8 @@ and (-webkit-device-pixel-ratio : 2){
     width: 160px;
   }
   .work{
-    padding-left: 0;
-    padding-right: 0;
+    padding-left: 5%;
+    padding-right: 5%;
   }
 
 }
@@ -403,5 +403,4 @@ and (max-width: 667px){
   .email{
     margin-left: 0px;
   }
-
 }
