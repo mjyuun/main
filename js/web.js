@@ -1,6 +1,6 @@
 $(document).ready(function() {
   window.onload = function() {
-    $('.body-wrapper').removeClass('.hidden').fadeIn(1000);
+    $('body').removeClass('.hidden').fadeIn(1000);
 };
 });
 
