@@ -88,14 +88,20 @@ li{
 a{
   text-decoration: none;
   color: #1c1c1c;
-  transition: ease, .2s;
+
+  -webkit-transition:ease, .3s;
+  transition: ease, .3s;
 }
 
 a:hover {
-color: #aaaaaa;
+color: #491AD9;
 }
 a:active {
-color: #a9a9a9;
+color: #491AD9;
+}
+#top_btn{
+  display:none;
+  color:
 }
 .landing{
   background-color: #128342;
@@ -270,6 +276,21 @@ background-color: #26ffab;
 [class*="col-"] {
     width: 100%;
 }
+@media only screen and (max-width: 400px) {
+  ul{
+    display: none;
+  }
+  #top_btn{
+    display: block;
+    color: black;
+  -webkit-transition: ease .3s;
+
+    transition: ease .3s;
+  }
+  #top_btn:hover{
+    color: #491AD9;
+  }
+}
 @media only screen and (max-width: 850px) {
 .footer_copyrights{
   justify-content: center;
@@ -283,9 +304,7 @@ background-color: #26ffab;
 .work_wrapper{
   display: block;
 }
-ul{
-  display: none;
-}
+
 .each_work_entire{
   width:100%;
   display: flex;
