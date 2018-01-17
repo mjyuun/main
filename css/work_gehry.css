@@ -17,7 +17,7 @@ body .hidden{
 .gehry_landing{
   margin-top: 50px;
   border-radius: 2px;
-  box-shadow: 2px 4px 20px #292929;
+  /*box-shadow: 2px 4px 20px #292929;*/
 }
 
 .landing_title{
@@ -42,6 +42,7 @@ body .hidden{
 .body_text_container{
   margin-left: 5%;
   margin-right: 5%;
+  margin-bottom: 30px;
 }
 
 .project_text_container{
@@ -56,7 +57,6 @@ padding-bottom: 50px;
   text-align: center;
 }
 .project_description{
-  width: 400px;
   margin-top: 10px;
   text-align: center;
   font-size: 18px;
@@ -65,7 +65,6 @@ padding-bottom: 50px;
 }
 
 .body_text_container{
-  padding: 50px 20%;
   text-align: center;
 }
 
@@ -84,7 +83,7 @@ padding-bottom: 50px;
   font-size: 18px;
   font-weight: 500;
   line-height: 26px;
-  width: 70%;
+  width: 550px;
   margin-bottom: 10px;
 }
 .body_line_container{
@@ -104,7 +103,7 @@ padding-bottom: 50px;
   font-size: 16px;
   font-weight: 200;
   text-align: left;
-  width: 80%;
+  width: 550px;
   line-height: 26px;
 }
 .caption{
@@ -122,11 +121,12 @@ padding-bottom: 50px;
   text-decoration: underline;
 }
 .photo_container{
-  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  padding-left: 8%;
+  padding-right:8%;
 }
 .hideme{
   margin-top: 50px;
@@ -159,5 +159,71 @@ background-color: #26ffab;
 .photo_container{
   padding-left: : 5%;
   padding-right: : 5%;
+}
+
+[class*="col-"] {
+    width: 100%;
+}
+@media only screen and (max-width: 400px) {
+  ul{
+    display: none;
+  }
+  .project_text_container{
+  display: block;
+  align-items: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 5%;
+  padding-right: 5%;
+  }
+
+}
+@media only screen and (max-width: 750px) {
+  .gehry_landing{
+    width: 90%;
+  }
+  .img_flex_container{
+    width: 90%;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  .caption{
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: center;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+    /* For tablets: */
+    .col-m-1 {width: 8.33%;}
+    .col-m-2 {width: 16.66%;}
+    .col-m-3 {width: 25%;}
+    .col-m-4 {width: 33.33%;}
+    .col-m-5 {width: 41.66%;}
+    .col-m-6 {width: 50%;}
+    .col-m-7 {width: 58.33%;}
+    .col-m-8 {width: 66.66%;}
+    .col-m-9 {width: 75%;}
+    .col-m-10 {width: 83.33%;}
+    .col-m-11 {width: 91.66%;}
+    .col-m-12 {width: 100%;}
+
+}
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
 
 }
