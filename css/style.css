@@ -50,18 +50,6 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
 }*/
-/*.ic_container{
-  width: 100%;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: flex-end;
-  position:absolute;
-  z-index: 2;
-}*/
-/*.ic_arrow_down_white{
-  padding-bottom: 70px;
-}*/
 
 .logo{
   display: inline;
@@ -114,14 +102,14 @@ color: #a9a9a9;
 }
 
 .landing-banner{
-  background-color: #e0e0e0;
-  background-image: url('../work/synthesis/brochure_img.jpg');
+  background-color: #491AD9;
+  /*background-image: url('../work/synthesis/brochure_img.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-attachment: fixed;
+  background-attachment: fixed;*/
   width: 100%;
-  height: 100vh;
+  height: 400px;
 }
 
 .content{
@@ -143,12 +131,12 @@ color: #a9a9a9;
 
 /*work section */
 .work_entire{
+  margin-bottom: 100px;
   margin-top: 100px;
 }
 .work{
   padding-left: 8%;
   padding-right: 8%;
-  padding-bottom: 150px;
   background-color: #f9f9f9;
   position: relative;
 }
@@ -157,9 +145,32 @@ color: #a9a9a9;
   display: flex;
   justify-content: space-between;
 }
+.each_work_entire{
+  width:100%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 50px;
+}
+
 .item{
   padding: 10px;
   position:relative;
+}
+.work_caption{
+  margin-top: 5px;
+  width: 100%;
+  height: 50px;
+}
+.work-name {
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  color: black;
+}
+.work-name p{
+  text-align: center;
+  font-size: 14px;
+  font-weight:400;
 }
 
 .item .img {
@@ -191,25 +202,9 @@ transition: 0.6s ease;
 }
 
 .work_container a:hover .overlay {
-  opacity: .5;
+  opacity: .2;
 }
 
-.work-name {
-  z-index: 2;
-  font-size: 24px;
-  font-weight: bold;
-  color: white;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  text-shadow: 1px 1px #000000;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-}
-.work-name p{
-  font-size: 16px;
-  font-weight:400;
-}
 .portfolio-title{
 display: flex;
 align-items: center;
@@ -275,7 +270,7 @@ background-color: #26ffab;
 [class*="col-"] {
     width: 100%;
 }
-@media only screen and (max-width: 750px) {
+@media only screen and (max-width: 850px) {
 .footer_copyrights{
   justify-content: center;
 }
@@ -322,6 +317,8 @@ ul{
     .col-11 {width: 91.66%;}
     .col-12 {width: 100%;}
 }
+
+
 /*@media only screen
 and (min-device-width: 375px)
 and (max-device-height: 667px)
@@ -347,7 +344,7 @@ and (-webkit-device-pixel-ratio : 2){
   .work_wrapper{
     display: block;
   }
-
+*/
   footer{
     /*height: 60px;*/
     padding-left: 8%;
