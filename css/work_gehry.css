@@ -136,7 +136,6 @@ padding-bottom: 50px;
   border-radius: 2px;
   opacity:0;
 }
-
 .topnav{
   background-color: transparent;
 }
@@ -182,6 +181,13 @@ background-color: #26ffab;
   .company_title{
     font-size: 18px;
   }
+  .bodycopy{
+    font-size: 16px;
+    font-weight: 200;
+    text-align: left;
+    width: 350px;
+    line-height: 26px;
+  }
 }
 @media only screen and (max-width: 750px) {
   .gehry_landing{
@@ -197,6 +203,13 @@ background-color: #26ffab;
     padding-left: 5%;
     padding-right: 5%;
     text-align: center;
+  }
+  .bodycopy{
+    font-size: 16px;
+    font-weight: 200;
+    text-align: left;
+    width: 350px;
+    line-height: 26px;
   }
 }
 
