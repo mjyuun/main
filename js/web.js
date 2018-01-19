@@ -57,11 +57,11 @@ function hasScrolled() {
     lastScrollTop = st;
 }
 
-
-window.sr = ScrollReveal({ reset: true });
-sr.reveal('.foo-4', {
-  viewFactor: 0.5
-});
+//
+// window.sr = ScrollReveal({ reset: true });
+// sr.reveal('.foo-4', {
+//   viewFactor: 0.5
+// });
 
 // sr.reveal('.foo-2', {
 //   origin: 'right',
@@ -69,15 +69,15 @@ sr.reveal('.foo-4', {
 // });
 
 
-//slick//
-
-  $(document).on('ready', function() {
-    $(".variable").slick({
-      dots: true,
-      infinite: true,
-      variableWidth: true
-    });
-  });
+// //slick//
+//
+//   $(document).on('ready', function() {
+//     $(".variable").slick({
+//       dots: true,
+//       infinite: true,
+//       variableWidth: true
+//     });
+//   });
 
 //onscroll fadeIn//
 $(document).ready(function() {
@@ -103,5 +103,3 @@ $(document).ready(function() {
     });
 
 });
-
-$('#yourElement').addClass('animated bounceOutLeft');

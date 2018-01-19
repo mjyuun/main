@@ -89,6 +89,7 @@ padding-bottom: 50px;
 .body_line_container{
   display: flex;
   width: 100%;
+  margin-top: 60px;
   /*justify-content: center;*/
 }
 
@@ -181,6 +182,10 @@ background-color: #26ffab;
   .company_title{
     font-size: 18px;
   }
+  .bodycopy_title{
+    width: 350px;
+    font-size: 16px;
+  }
   .bodycopy{
     font-size: 16px;
     font-weight: 200;
@@ -189,6 +194,7 @@ background-color: #26ffab;
     line-height: 26px;
   }
 }
+
 @media only screen and (max-width: 750px) {
   .gehry_landing{
     width: 90%;
@@ -210,6 +216,10 @@ background-color: #26ffab;
     text-align: left;
     width: 350px;
     line-height: 26px;
+  }
+  .bodycopy_title{
+    font-size: 16px;
+    width: 350px;
   }
 }
 
