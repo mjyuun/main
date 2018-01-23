@@ -71,7 +71,11 @@ color: darkgray;
   align-content: space-between;
   background-position: top;
 }
-
+.work_main_wrapper{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
 .body_text_container{
   margin-bottom: 30px;
 }
@@ -164,9 +168,9 @@ padding-right: 5%;
   border-radius: 2px;
   opacity:0;
 }
+
 .work_img{
   margin-top: 20px;
-
   margin-bottom: 20px;
 }
 
@@ -213,9 +217,6 @@ padding-right: 5%;
   .body_notification{
     font-size: 16px;
   }
-  .work_img{
-    width: 90%;
-  }
 }
 @media only screen and (max-width: 550px) {
   .bodycopy{
@@ -230,6 +231,13 @@ padding-right: 5%;
   }
   .work_img{
     width: 90%;
+  }
+  #work_main_wrapper{
+    display: flex;
+    justify-content: center;
+  }
+  .work_img_hidden{
+    display: none;
   }
 }
 @media only screen and (min-width: 850px) {
