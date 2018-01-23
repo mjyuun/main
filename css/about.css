@@ -17,6 +17,8 @@
   justify-content: center;
   width: 100%;
   padding-right: 5%;
+  margin-bottom: 100px;
+  margin-top: 70px;
 }
 .about_copy{
   width: 480px;
@@ -274,6 +276,10 @@ background-color: #26ffab;
 .hideme{
   opacity: 0;
 }
+.about_landing_hidden{
+  display: none;
+}
+
 
 
 /*media query starts here*/
@@ -282,6 +288,36 @@ background-color: #26ffab;
 }
 @media only screen and (max-width: 400px) {
   ul{
+    display: none;
+  }
+  #top_btn{
+    display: block;
+    color: black;
+  -webkit-transition: ease .3s;
+
+    transition: ease .3s;
+  }
+  #top_btn:hover{
+    color: #707070;
+  }
+  .about_copy{
+    width: 300px;
+  }
+  .about_landing_hidden{
+    display: block;
+  }
+  .about_landing{
+    display: none;
+  }
+}
+@media only screen and (max-width: 520px) {
+  ul{
+    display: none;
+  }
+  .about_landing_hidden{
+    display: block;
+  }
+  .about_landing{
     display: none;
   }
   #top_btn{
