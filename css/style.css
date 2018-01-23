@@ -55,11 +55,12 @@ header {
   display: inline;
 }
 .logo_name{
-  font-size: 20px;
+  font-size: 22px;
   font-weight: bold;
-  font-family: "Georgia", serif;
+  font-family: "georgia", sans-serif;
 }
 .logo_design{
+  font-family: "din", sans-serif;
   margin-left: -2px;
   font-size: 20px;
   font-weight: 400;
@@ -92,12 +93,16 @@ a{
   -webkit-transition:ease, .3s;
   transition: ease, .3s;
 }
-
+.regular_link{
+  font-size: 16px;
+  font-weight: 400;
+  text-decoration: underline;
+}
 a:hover {
-color: #707070;
+color: #aaaaaa;
 }
 a:active {
-color: #707070;
+color: #aaaaaa;
 }
 #top_btn{
   display:none;
