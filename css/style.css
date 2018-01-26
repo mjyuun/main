@@ -257,16 +257,17 @@ background-color: #26ffab;
 }
 
 .ic_social{
-  width: 19px;
+  width: 18px;
   margin-left: 20px;
+  margin-right: 2px;
+  margin-top: 2px;
 
   -webkit-transition: ease .3s; /* Safari */
    transition: ease .3s;
  }
 
 .ic_social:hover{
-  opacity: .7;
-  transform: scale(0.96);
+  transform: scale(1.2);
 }
 
 .hideme{
