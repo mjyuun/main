@@ -283,11 +283,6 @@ background-color: #26ffab;
 .hideme{
   opacity: 0;
 }
-.about_landing_hidden{
-  display: none;
-}
-
-
 
 /*media query starts here*/
 [class*="col-"] {
@@ -310,22 +305,19 @@ background-color: #26ffab;
   .about_copy{
     width: 300px;
   }
-  .about_landing_hidden{
-    display: block;
-  }
   .about_landing{
-    display: none;
+  width: 80%;
+
   }
+
+
 }
 @media only screen and (max-width: 520px) {
   ul{
     display: none;
   }
-  .about_landing_hidden{
-    display: block;
-  }
   .about_landing{
-    display: none;
+    width: 100%;
   }
   #top_btn{
     display: block;
@@ -339,6 +331,12 @@ background-color: #26ffab;
   }
   .about_copy{
     width: 300px;
+  }
+  .about_social{
+    visibility: hidden;
+  }
+  .about_h1{
+    font-size: 28px;
   }
 }
 @media only screen and (max-width: 850px) {
