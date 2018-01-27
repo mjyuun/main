@@ -179,19 +179,7 @@ padding-right: 5%;
     width: 100%;
 }
 @media only screen and (max-width: 400px) {
-  ul{
-    display: none;
-  }
-  #top_btn{
-    display: block;
-    color: #e9e9e9;
-  -webkit-transition: ease .3s;
 
-    transition: ease .3s;
-  }
-  #top_btn:hover{
-    color: #ffffff;
-  }
   .project_text_container{
   display: block;
   align-items: center;

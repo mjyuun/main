@@ -50,7 +50,6 @@ header {
   background-size: cover;
 }*/
 
-
 .logo{
   display: inline;
 }
@@ -104,9 +103,10 @@ color: #aaaaaa;
 .topnav a:active {
 color: #2516ff;
 }
-#top_btn{
+/*#top_btn{
   display:none;
-}
+}*/
+
 .landing{
   background-color: #128342;
 }
@@ -271,11 +271,11 @@ background-color: #26ffab;
 [class*="col-"] {
     width: 100%;
 }
-@media only screen and (max-width: 420px) {
-  ul{
+@media only screen and (max-width: 520px) {
+  /*ul{
     display: none;
-  }
-  #top_btn{
+  }*/
+  /*#top_btn{
     display: block;
     color: black;
   -webkit-transition: ease .3s;
@@ -284,7 +284,7 @@ background-color: #26ffab;
   }
   #top_btn:hover{
     color: #707070;
-  }
+  }*/
 }
 @media only screen and (max-width: 850px) {
 .footer_copyrights{

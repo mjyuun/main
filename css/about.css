@@ -116,9 +116,9 @@ color: #707070;
 a:active {
 color: #707070;
 }
-#top_btn{
+/*#top_btn{
   display:none;
-}
+}*/
 .landing{
   background-color: #128342;
 }
@@ -240,7 +240,7 @@ background-color: white;
     width: 100%;
 }
 @media only screen and (max-width: 420px) {
-  ul{
+  /*ul{
     display: none;
   }
   #top_btn{
@@ -252,7 +252,7 @@ background-color: white;
   }
   #top_btn:hover{
     color: #707070;
-  }
+  }*/
   .about_copy{
     width: 300px;
   }
@@ -265,11 +265,8 @@ background-color: white;
   }
 }
 @media only screen and (max-width: 520px) {
-  ul{
+  /*ul{
     display: none;
-  }
-  .about_landing{
-    width: 100%;
   }
   #top_btn{
     display: block;
@@ -280,6 +277,9 @@ background-color: white;
   }
   #top_btn:hover{
     color: #707070;
+  }*/
+  .about_landing{
+    width: 100%;
   }
   .about_copy{
     width: 300px;
