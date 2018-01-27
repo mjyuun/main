@@ -31,7 +31,7 @@
 .about_copy p{
   font-size: 16px;
   font-weight: 200;
-  color: #707070;
+  color: #474747;
 }
 .about_h1{
   font-size: 42px;
@@ -258,6 +258,10 @@ background-color: white;
   }
   .about_landing{
   width: 80%;
+  }
+  .about_main{
+    margin-top: 50px;
+    margin-bottom: 20px;
   }
 }
 @media only screen and (max-width: 520px) {

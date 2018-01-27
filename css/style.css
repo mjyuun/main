@@ -267,7 +267,6 @@ background-color: #26ffab;
   opacity: 0;
 }
 
-
 /*media query starts here*/
 [class*="col-"] {
     width: 100%;
