@@ -6,10 +6,6 @@
   overflow-x: hidden;
 }
 
-/*body .hidden{
-  display: none;
-  background-color: #f9f9f9;
-}*/
 ::-moz-selection { /* Code for Firefox */
     background: #e5e5e5;
 }
@@ -26,9 +22,7 @@ body {
     overflow-y: hidden;
     overflow-x: hidden;
 }
-/*body .hidden {
-    display: none;
-}*/
+
 header {
     background: transparent;
     height: 60px;
@@ -41,7 +35,6 @@ header {
 .nav-up {
     top: -60px;
 }
-
 /*.logo{
   width: 50px;
   height: 23px;
@@ -105,11 +98,11 @@ a{
   font-weight: 400;
   text-decoration: underline;
 }
-a:hover {
+.topnav a:hover {
 color: #aaaaaa;
 }
-a:active {
-color: #aaaaaa;
+.topnav a:active {
+color: #2516ff;
 }
 #top_btn{
   display:none;
@@ -345,6 +338,7 @@ background-color: #26ffab;
     .col-11 {width: 91.66%;}
     .col-12 {width: 100%;}
 }
+
 
 
 /*@media only screen

@@ -12,13 +12,18 @@
 ::selection {
     background: #e5e5e5;
 }
+
 .about_main{
   display: flex;
   justify-content: center;
-  width: 100%;
-  padding-right: 5%;
+  flex-direction: column;
+  align-items: center;
   margin-bottom: 100px;
   margin-top: 70px;
+}
+.about_social{
+  margin-top: 30px;
+  /*margin-bottom: 20px;*/
 }
 .about_copy{
   width: 480px;
@@ -26,6 +31,13 @@
 .about_copy p{
   font-size: 16px;
   font-weight: 200;
+  color: #707070;
+}
+.about_h1{
+  font-size: 42px;
+  margin-bottom: 50px;
+  text-align: center;
+  font-weight: bold;
 }
 #cv_link{
   font-size: 16px;
