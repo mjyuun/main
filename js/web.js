@@ -103,3 +103,7 @@ $(document).ready(function() {
     });
 
 });
+
+var photoSlide= $('#photoSlide');
+var nextBtn=$('#nextBtn');
+var preBtn=$('#preBtn');
