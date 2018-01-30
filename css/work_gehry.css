@@ -1,5 +1,5 @@
 body{
-  background-color: #494949;
+  background-color: #fff;
 }
 body .hidden{
   display: none;
@@ -57,7 +57,6 @@ padding-bottom: 50px;
 }
 .project_title{
   font-size: 24px;
-  color: #26ffab;
   text-align: center;
 }
 .project_description{
@@ -94,7 +93,7 @@ padding-bottom: 50px;
 .body_line_container{
   display: flex;
   width: 100%;
-  margin-top: 60px;
+  margin-top: 40px;
   /*justify-content: center;*/
 }
 
@@ -117,7 +116,6 @@ padding-bottom: 50px;
   font-size: 12px;
   font-weight: 100;
   margin-top: 10px;
-  margin-bottom: 100px;
 }
 .caption_link{
   color: #aaaaaa;
@@ -131,11 +129,15 @@ padding-bottom: 50px;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding-left: 8%;
-  padding-right:8%;
+  padding-left: 15%;
+  padding-right: 15%;
+}
+.monster{
+  margin-top: 20px;
+  margin-top: 50px;
 }
 .hideme{
-  margin-top: 50px;
+  margin-top: 20px;
   margin-top: 50px;
 
   /*box-shadow: 0px 1px 20px 1px rgba(0, 0, 0, .1);*/
@@ -152,6 +154,8 @@ footer{
   border-top: none;
   background-color: transparent;
   width: 100%;
+  margin-top: 100px;
+
 }
 .email{
   margin-left: 0;
@@ -169,16 +173,24 @@ background-color: #26ffab;
   margin-bottom: 100px;
 
 }
-.photo_container{
-  padding-left: : 5%;
-  padding-right: : 5%;
+.synthesis_text_container{
+  margin-top: -40px;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+.synthesis_bodycopy_line{
+  background-color: yellow;
+  width: 90px;
+  height: 2px;
+}
+.color{
+  margin-bottom: 50px;
 }
 
 [class*="col-"] {
     width: 100%;
 }
-@media only screen and (max-width: 400px) {
-
+@media only screen and (max-width: 500px) {
   .project_title{
     font-size: 20px;
   }
@@ -206,9 +218,17 @@ background-color: #26ffab;
     line-height: 26px;
   }
   .photo_container{
-    padding-left: 5%;
-    padding-right: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-left: 15%;
+    padding-right: 15%;
   }
+  .synthesis_text_container{
+    margin-top: 0px;
+  }
+
 }
 
 @media only screen and (max-width: 750px) {
@@ -236,10 +256,6 @@ background-color: #26ffab;
   .bodycopy_title{
     font-size: 16px;
     width: 350px;
-  }
-  .photo_container{
-    padding-left: 5%;
-    padding-right: 5%;
   }
 }
 
@@ -274,6 +290,10 @@ background-color: #26ffab;
     .col-11 {width: 91.66%;}
     .col-12 {width: 100%;}
     .photo_container{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
       padding-left: 15%;
       padding-right: 15%;
     }
