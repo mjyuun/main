@@ -24,11 +24,9 @@ a{
   transition: ease, .2s;
 }
 a:hover {
-color: darkgray;
+opacity: .8;
 }
-a:active {
-color: darkgray;
-}
+
 .logo{
   display: inline;
 }

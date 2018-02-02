@@ -9,19 +9,17 @@ header{
 }
 
 .topnav{
-  background-color: #00B7D2;
+  background-color: transparent;
 }
 a{
   text-decoration: none;
-  color: #e9e9e9;
+  color: #fff;
   transition: ease, .2s;
 }
 a:hover {
-color: #ffffff;
+opacity: .9;
 }
-a:active {
-color: #ffffff;
-}
+
 .logo{
   display: inline;
 }
@@ -89,7 +87,7 @@ color: #ffffff;
   transition: ease .3s;
 }
 .company_title:hover{
-  color: #e9e9e9;
+  opacity: .9;
 }
 
 .project_text_container{

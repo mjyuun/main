@@ -108,7 +108,7 @@ padding-bottom: 50px;
   font-size: 16px;
   font-weight: 200;
   text-align: left;
-  width: 550px;
+  width: 480px;
   line-height: 26px;
 }
 .caption{
@@ -174,8 +174,7 @@ background-color: #26ffab;
 
 }
 .synthesis_text_container{
-  margin-top: -40px;
-  padding-left: 5%;
+  margin-top: 20px;
   padding-right: 5%;
 }
 .synthesis_bodycopy_line{
@@ -214,7 +213,7 @@ background-color: #26ffab;
     font-size: 16px;
     font-weight: 200;
     text-align: left;
-    width: 350px;
+    width: 300px;
     line-height: 26px;
   }
   .photo_container{
@@ -222,8 +221,8 @@ background-color: #26ffab;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding-left: 15%;
-    padding-right: 15%;
+    padding-left: 5%;
+    padding-right: 5%;
   }
   .synthesis_text_container{
     margin-top: 0px;
