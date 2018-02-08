@@ -103,7 +103,11 @@ $(document).ready(function() {
     });
 
 });
-
-var photoSlide= $('#photoSlide');
-var nextBtn=$('#nextBtn');
-var preBtn=$('#preBtn');
+// function myFunction(x) {
+//     x.classList.toggle("change");
+//     };
+// $(document).ready(function(){
+//     $("#toggleBtn").click(function(){
+//         $("#mobile_menu").slideToggle();
+//     });
+// });
