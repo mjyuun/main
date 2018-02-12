@@ -4,13 +4,6 @@ body{
 body .hidden{
   display: none;
 }
-header{
-  background-color: #00B7D2;
-}
-
-.topnav{
-  background-color: none;
-}
 .regular_link{
   font-size: 16px;
   font-weight: 300;
@@ -18,30 +11,7 @@ header{
 .work_top_img{
   margin-top: 120px;
 }
-a{
-  text-decoration: none;
-  color: black;
-  transition: ease, .2s;
-}
-a:hover {
-opacity: .8;
-}
 
-.logo{
-  display: inline;
-}
-.logo_name{
-  font-size: 20px;
-  font-weight: bold;
-  font-family: "din", sans-serif;
-}
-.logo_design{
-  font-family: "din", sans-serif;
-  margin-left: -2px;
-  font-size: 20px;
-  font-weight: 400;
-  letter-spacing: -0.2px;
-}
 
 /*.logo_wh{
   width: 50px;
@@ -223,8 +193,8 @@ padding-right: 5%;
 }
 @media only screen and (min-width: 850px) {
   .photo_container{
-    padding-left: 20%;
-    padding-right: 20%;
+    padding-left: 8%;
+    padding-right: 8%;
   }
 }
 @media only screen and (min-width: 600px) {

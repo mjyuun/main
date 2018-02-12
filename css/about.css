@@ -14,9 +14,6 @@
 }
 
 .about_main{
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
   align-items: center;
   margin-bottom: 100px;
   margin-top: 70px;
@@ -63,59 +60,7 @@ header {
     width: 100%;
     z-index: 200000;
 }
-.nav-up {
-    top: -60px;
-}
 
-.logo{
-  display: inline;
-}
-.logo_name{
-  font-size: 22px;
-  font-weight: bold;
-  font-family: "georgia", serif;
-}
-.logo_design{
-  font-family: "din", sans-serif;
-  margin-left: -2px;
-  font-size: 20px;
-  font-weight: 400;
-  letter-spacing: -0.2px;
-}
-
-.topnav{
-  background-color: white;
-  display: flex;
-  justify-content: space-between;
-  padding-left: 5%;
-  padding-right: 5%;
-  padding-top: 18px;
-  position: relative;
-  height: 42px;
-}
-ul {
-  list-style-type: none;
-}
-
-li{
-  display: inline-block;
-  margin-left:20px;
-}
-
-a{
-  text-decoration: none;
-  color: #1c1c1c;
-
-  -webkit-transition:ease, .3s;
-  transition: ease, .3s;
-}
-
-a:hover {
-color: #707070;
-}
-a:active {
-color: #707070;
-}
 /*#top_btn{
   display:none;
 }*/
