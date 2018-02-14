@@ -212,7 +212,7 @@ opacity: .9;
 }
 .work_caption{
   margin-top: 5px;
-  width: 240px;
+  width: 90px;
   /*height: 50px;*/
   -webkit-transform: translateX(100%) rotateZ(90deg);
   transform: translateX(100%) rotateZ(90deg);
