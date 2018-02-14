@@ -15,9 +15,9 @@
 
 .about_main{
   align-items: center;
-  margin-bottom: 100px;
+  margin-bottom: 70px;
   margin-top: 70px;
-  margin-left: 8%;
+  margin-left: 5%;
 }
 .about_social{
   margin-top: 30px;
@@ -33,11 +33,16 @@
   line-height: 1.7;
 }
 .about_h1{
-  font-size: 42px;
+  font-size: 72px;
   margin-bottom: 50px;
-  text-align: center;
   font-weight: bold;
 }
+.about_img{
+  width: 90%;
+  height: 500px;
+  background-color: rgb(212, 233, 40);
+}
+
 #cv_link{
   font-size: 16px;
   font-weight: 200;
