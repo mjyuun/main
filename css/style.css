@@ -162,7 +162,6 @@ opacity: .9;
   font-size: 150px;
   font-weight: bold;
   letter-spacing: -6px;
-  margin-left: 2%;
   margin-top: 200px;
 
 }
@@ -190,16 +189,12 @@ opacity: .9;
   margin-top: 0px;
 }
 .work{
-  padding-left: 0%;
   padding-right: 10%;
   position: relative;
   margin-top: 80px;
 }
 /*portfolio ITEM*/
-.work_wrapper{
-  /*display: flex;*/
-  /*justify-content: space-between;*/
-}
+
 .each_work_entire{
   width:100%;
   display: flex;
@@ -240,8 +235,6 @@ transition: 0.6s ease;
   position: relative;
   margin-top: 0;
   width:100%;
-  margin-right: 5px;
-  margin-left: 5px;
 }
 
 .img {
@@ -530,10 +523,7 @@ and (max-width: 667px){
     display: inline;
     float: left;
   }
-  .work{
-    padding-left: 3%;
-    padding-right: 3%;
-  }
+
   .work_wrapper{
     display: block;
   }
