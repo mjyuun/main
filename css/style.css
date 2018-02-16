@@ -20,6 +20,8 @@
 body {
     overflow-y: hidden;
     overflow-x: hidden;
+    background-color: #f9f9f9;
+
 }
 
 header {
@@ -188,9 +190,8 @@ opacity: .9;
   margin-top: 0px;
 }
 .work{
-  padding-left: 10%;
+  padding-left: 0%;
   padding-right: 10%;
-  background-color: #ffffff;
   position: relative;
   margin-top: 80px;
 }
