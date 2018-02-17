@@ -3,6 +3,8 @@ $(function() {
 $('body').hide().fadeIn('slow');
 });
 
+
+
 $(function() {
   $('a[href*="#"]:not([href="#"])').click(function() {
     if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
@@ -103,11 +105,7 @@ $(document).ready(function() {
     });
 
 });
-// function myFunction(x) {
-//     x.classList.toggle("change");
-//     };
-// $(document).ready(function(){
-//     $("#toggleBtn").click(function(){
-//         $("#mobile_menu").slideToggle();
-//     });
-// });
+
+$(document).ready(function() {
+          $('.about_img').delay(3000).animate({bottom:"15%"},600);
+    });
