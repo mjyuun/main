@@ -18,7 +18,9 @@ body .hidden{
   flex-direction: row;
   width: 100%;
 }
-
+.flex_div{
+  width: 100%;
+}
 .landing_title{
   margin-top: 20px;
   width: 100%;
