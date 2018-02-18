@@ -16,6 +16,7 @@ body .hidden{
 .flex_wrapper{
   display: flex;
   flex-direction: row;
+  width: 100%;
 }
 
 .landing_title{
