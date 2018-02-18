@@ -16,15 +16,8 @@ body .hidden{
 .flex_wrapper{
   display: flex;
   flex-direction: row;
-  margin-bottom: 10px;
 }
 
-.flex_img_left{
-  padding-right: 5px;
-}
-.flex_img_right{
-  padding-left: 5px;
-}
 .landing_title{
   margin-top: 20px;
   width: 100%;
