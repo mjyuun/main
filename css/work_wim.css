@@ -19,11 +19,11 @@ body .hidden{
   margin-bottom: 10px;
 }
 
-.flex_div{
-  width: 100%;
-}
 .flex_img_left{
-  margin-right: 10px;
+  padding-right: 5px;
+}
+.flex_img_right{
+  padding-left: 5px;
 }
 .landing_title{
   margin-top: 20px;
@@ -123,6 +123,8 @@ padding-right: 8%;
 }
 .italic{
   font-style: italic;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 /*media query starts here*/
 [class*="col-"] {
