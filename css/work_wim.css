@@ -13,24 +13,18 @@ body .hidden{
   margin-top: 70px;
 
 }
-
-
-/*.logo_wh{
-  width: 50px;
-  height: 23px;
-  background-image: url(../assets/logo/logo_wh.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-
-  transition: ease .3s;
+.flex_wrapper{
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 10px;
 }
-.logo_wh:hover{
-  background-image: url(../assets/logo/logo_wh_hover.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-}*/
 
-
+.flex_div{
+  width: 100%;
+}
+.flex_img_left{
+  margin-right: 10px;
+}
 .landing_title{
   margin-top: 20px;
   width: 100%;
@@ -127,7 +121,9 @@ padding-right: 8%;
   border-radius: 2px;
   opacity:0;
 }
-
+.italic{
+  font-style: italic;
+}
 /*media query starts here*/
 [class*="col-"] {
     width: 100%;

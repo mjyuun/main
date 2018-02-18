@@ -59,27 +59,6 @@ function hasScrolled() {
     lastScrollTop = st;
 }
 
-//
-// window.sr = ScrollReveal({ reset: true });
-// sr.reveal('.foo-4', {
-//   viewFactor: 0.5
-// });
-
-// sr.reveal('.foo-2', {
-//   origin: 'right',
-//   duration: 1500
-// });
-
-
-// //slick//
-//
-//   $(document).on('ready', function() {
-//     $(".variable").slick({
-//       dots: true,
-//       infinite: true,
-//       variableWidth: true
-//     });
-//   });
 
 //onscroll fadeIn//
 $(document).ready(function() {
@@ -96,7 +75,7 @@ $(document).ready(function() {
             /* If the object is completely visible in the window, fade it it */
             if( bottom_of_window > bottom_of_object ){
 
-                $(this).animate({'opacity':'1'},500);
+                $(this).animate({'opacity':'1'},400);
 
             }
 
