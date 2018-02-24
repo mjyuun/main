@@ -5,185 +5,110 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Minjoo Design</title>
   <link rel="stylesheet" href="css/style.css">
-  <!-- <link rel="stylesheet" href="css/about.css"> -->
-
+  <link rel="stylesheet" href="css/about.css">
+  <link rel="stylesheet" href="https://use.typekit.net/iah8vat.css">
   <link rel="stylesheet"
  href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css">
  <link rel="icon" href="favicon.ico" type="image/x-icon" sizes="16x16"/>
-
-
-
-
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <!-- <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script> -->
-  <!-- <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script> -->
 
 </head>
+<div class="nanobar bar" id="nanobar"></div>
 <body class="hidden">
+  <div class="parallax-window landing" data-parallax="scroll" data-image-src="assets/mj-gray-pattern_1.png">
+    <div class="intro_title">
+      <img src="assets/logo-outlined.png" width="36px" />
+      <p class="intro_title">Minjoo Yun</p>
+      <p class="intro_subhead">User Experience Designer</p>
+    </div>
+  </div>
+
 <div class="body-wrapper hidden">
     <div class="content" id="landing">
         <header class="nav-down">
           <div class="topnav">
             <a href="index.html">
-                <h1 class="logo logo_name">MinjooYun</h1>
+              <img src="assets/mj-logo.png" width="100px" />
+                <!-- <h1 class="logo logo_name">Minjoo</h1> -->
             </a>
-            <!-- <div id="toggleBtn">
-              <a id="nav-toggle" href="#!" onclick="myFunction(this)">
-                <div class="bar1"></div>
-                <div class="bar2"></div>
-                <div class="bar3"></div>
-              </a>
-            </div> -->
+
             <ul>
               <li><a href="#work">work</a></li>
               <li><a href="about.html">about</a></li>
             </ul>
           </div>
-          <!-- <div id="mobile_menu">
-            <ul>
-              <li><a href="#work">work</a></li>
-              <li><a href="about.html">about</a></li>
-            </ul>
-            <div class="footer_ic_social">
-                <a href="mailto:mjdesign.yun@gmail.com" target="_blank"><img src='assets/ic_social/ic_email.png'  class="ic_social email"/></a>
-                <a href="https://www.instagram.com/mjmj.yun" target="_blank" ><img src='assets/ic_social/ic_instagram.png' class="ic_social instagram"/></a>
-                <a href="https://www.linkedin.com/in/mjmjyun/" target="_blank"><img src='assets/ic_social/ic_linkedin.png' class="ic_social linkedin"/></a>
-                <a href="https://www.behance.net/mjyuun" target="_blank"><img src='assets/ic_social/ic_behance.png'  class="ic_social behance"/></a>
-            </div>
-          </div> -->
         </header>
     </div>
 
-      <!-- <img src="assets/about_bg_mobile.png" width="100%" class="about_landing_hidden"/> -->
-      <!-- <img src="assets/about_bg2.png" width="100%" class="about_landing"/ /> -->
     </div>
-    <!-- <div class="menu_overlay">
-      <ul>
-        <li>
-          <a href="index.html">main</a>
-        </li>
-      </ul>
-    </div> -->
-    <!-- <div class="landing-banner"></div> -->
-    <!-- <img src="work/vegier/vegier_thumbnail.png" width="100%" /> -->
-    <!-- <h1 class="landing-title">DESIGNERd</h1> -->
+
     <section class="work" id="work">
       <div class="title">
-        <!-- <h1>Work</h1> -->
-        <!-- <p class="seemore">
-          see more
-        </p> -->
+
       </div>
       <div class="work_entire">
-          <div class="each_work_entire">
+        <div class="work_wrapper">
+          <div class="each_work_entire work_left">
+            <div class="work_container">
+              <a href="work_clincase.html">
+                <img src='work/clincase/thumbnail.png'class="portfolio3 img"/>
+                <div class="overlay"></div>
+              </a>
+            </div>
+          </div>
+          <div class="each_work_entire work_right">
             <div class="work_container">
               <a href="work_vegier.html">
-                  <img src='work/vegier/vegier_thumbnail.png'class="portfolio1 img"/>
+                  <img src='work/vegier/thumbnail.png'class="portfolio1 img" />
                 <div class="overlay"></div>
                 </a>
             </div>
-            <div class="work_caption">
-              <h2 class="work-name">Vegier<br></h2><p class="work-name-p">
-                Brand & 3D Package</p>
-            </div>
           </div>
-          <div class="work_wrapper">
-            <div class="each_work_entire">
+        </div>
+          <div class=" work_wrapper">
+            <div class="each_work_entire work_left">
               <div class="work_container">
-                <a href="work_clincase.html">
-                  <img src='work/clincase/clincase_thumbnail.png'class="portfolio3 img"/>
+                <a href="work_synthesis.html">
+                  <img src='work/synthesis/thumbnail2.png'class="portfolio3 img" loop=infinite/>
                   <div class="overlay"></div>
                 </a>
               </div>
-              <div class="work_caption">
-                <h2 class="work-name">UI/UX <br></h2><p class="work-name-p">
-                   Internship in Germany</p>
+            </div>
+            <div class=" each_work_entire work_right">
+              <div class="work_container">
+                <a href="work_karfarm.html">
+                  <img src='work/karfarm/thumbnail.png'class="portfolio4 img"/>
+                  <div class="overlay"></div>
+                </a>
               </div>
             </div>
-          </div>
-          <div class="each_work_entire">
-            <div class="work_container">
-              <a href="work_synthesis.html">
-                <img src='work/synthesis/synthesis-logo.gif'class="portfolio3 img" loop=infinite/>
-                <div class="overlay"></div>
-              </a>
-            </div>
-            <div class="work_caption">
-              <h2 class="work-name work-title">Exhibition <br></h2><p class="work-name-p">
-                Brand Design 2017</p>
-            </div>
-          </div>
+        </div>
           <div class="work_wrapper">
-            <!-- <div class="hideme work_container">
-              <a href="work_vegier.html">
-                <img src='work/vegier/vegier_thumbnail.png'class="portfolio2 img"/>
-                <h2 class="work-name">Vegier<br><p>
-                  Brand Identity & 3D Package</p></h2>
-                <div class="overlay"></div>
-              </a>
-            </div> -->
-            <div class="hideme each_work_entire ">
+            <div class="hideme each_work_entire work_left">
                 <div class="work_container">
                     <a href="work_tivz.html">
-                        <img src='work/tivz/tivz_thumbnail.png'class="portfolio1 img"/>
+                        <img src='work/tivz/thumbnail.png'class="portfolio1 img"/>
                       <!-- <h2 class="work-name">Tivz<br><p>
                         Brand Identity & 3D Kiosk</p></h2> -->
                       <div class="overlay"></div>
                     </a>
                 </div>
-                <div class="work_caption">
-                  <h2 class="work-name">Tivz<br></h2><p class="work-name-p">
-                    Brand Identity & 3D Kiosk</p>
-                </div>
+
             </div>
-            <div class="hideme each_work_entire">
+            <div class="hideme each_work_entire work_right">
               <div class="work_container">
                 <a href="work_gehry.html">
                     <img src='work/gehry/gehry_thumbnail.png'class="portfolio1 img"/>
                   <div class="overlay"></div>
                   </a>
               </div>
-              <div class="work_caption">
-                <h2 class="work-name">Frank Gehry<br></h2><p class="work-name-p">
-                  Conceptual Poster Design</p>
-              </div>
+
             </div>
           </div>
-            <!-- <div class="hideme each_work_entire">
-              <div class="work_container">
-                <a href="work_wim.html">
-                  <img src='work/wim/wim_thumbnail.png'class="portfolio4 img"/>
-                  <div class="overlay"></div>
-                </a>
-              </div>
-              <div class="work_caption">
-                <h2 class="work-name">Wim Crouwel<br><p>
-                Brochure Design </p></h2>
-              </div>
-            </div> -->
 
-        <!-- <div class="work_wrapper_3 work_wrapper">
-          <div class="hideme work_container">
-            <a href="work_vegier.html">
-              <img src='work/vegier/vegier_thumbnail.png'class="portfolio2 img"/>
-              <h2 class="work-name">Vegier<br><p>
-                Brand Identity & 3D Package</p></h2>
-              <div class="overlay"></div>
-            </a>
-          </div>
-
-            <div class="hideme work_container">
-              <a href="work_clincase.html">
-                <img src='work/denim/denim_thumbnail.png'class="portfolio4 img"/>
-                <h2 class="work-name">The Denim Evolution<br><p>
-                Commemorable Stamp Design </p></h2>
-                <div class="overlay"></div>
-              </a>
-            </div>
-        </div> -->
       </div>
     </section>
-
+    <img src="assets/ic/ic_arrow_down_white.png" width="49px" height="49px;"/>
     <footer>
       <div class="footer_text">
         <!-- <div class="footer_line"></div> -->
@@ -203,9 +128,9 @@
 </div>
 </div>
 
-<!-- <script src='js/scrollreveal.min.js'></script> -->
-<!-- <script src='js/scrollreveal.js'></script> -->
 <script src='js/web.js'></script>
+<script src="parallax.js-1.5.0/parallax.js"></script>
+<script src="nanobar/nanobar.js"></script>
 
 </body>
 </html>

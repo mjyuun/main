@@ -6,18 +6,20 @@
   <title>Minjoo Yun Designer</title>
   <link rel="stylesheet" href="css/about.css">
   <link rel="stylesheet" href="css/style.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <link rel="icon" href="favicon.ico" type="image/x-icon" sizes="16x16"/>
 
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 </head>
+<div class="nanobar bar" id="nanobar"></div>
 <body class="hidden">
 <div class="body-wrapper hidden">
     <div class="content" id="landing">
         <header class="nav-down">
           <div class="topnav">
             <a href="index.html">
-              <h1 class="logo logo_name">MinjooYun</h1>
-              <!-- <div class="logo">  </div> -->
+              <img src="assets/mj-logo.png" width="100px" />
+              <!-- <h1 class="logo logo_name">Minjoo</h1> -->
             </a>
             <ul>
               <li><a href="index.html">work</a></li>
@@ -27,9 +29,15 @@
           </div>
         </header>
     </div>
-      <!-- <img src="assets/about_bg_mobile.png" width="100%" class="about_landing_hidden"/> -->
-      <!-- <h1 class="about_h1">POSITIVE IMPACT THROUGH DESIGN</h1> -->
 
+      <div class="parallax-window landing" data-parallax="scroll" data-image-src="assets/mj-gray-pattern_1.png">
+        <div class="intro_title">
+          <img src="assets/logo-outlined.png" width="36px" />
+          <p class="intro_title">Design Process</p>
+          <p class="intro_subhead">begins with curiosity</p>
+        </div>
+      </div>
+      <!-- <img src="assets/profile-img.png" width="300px"/> -->
   <div class="about_main">
         <div class="about_copy about_col1">
           <p calss="about_bodycopy bodycopy">
@@ -44,17 +52,12 @@
             hi@minjoodesign.com
           </p></a>
         </div>
-        <div class="about_col3">
+        <!-- <div class="about_col3">
           <h3>Visual Design</h3>
           <h3>Front-end Development</h3>
           <h3>English Korean Japanese</h3>
-
-
-        </div>
+        </div> -->
   </div>
-
-    <div class="about_img">
-    </div>
 
     <footer>
       <div class="footer_text">
@@ -72,10 +75,9 @@
       </div>
       </div>
     </footer>
-
-<script src='js/scrollreveal.min.js'></script>
-<script src='js/scrollreveal.js'></script>
 <script src='js/web.js'></script>
+<script src="parallax.js-1.5.0/parallax.js"></script>
+<script src="nanobar/nanobar.js"></script>
 
 </body>
 </html>

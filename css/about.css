@@ -19,56 +19,59 @@ body{
   margin-bottom: 70px;
   margin-left: 5%;
   display: flex;
+  justify-content: space-between;
   margin-top: 50px;
+  margin-right: 5%
+}
+.topnav a{
+  text-decoration: none;
+  color: rgb(48, 0, 208);
+  -webkit-transition:ease, .3s;
+  transition: ease, .3s;
 }
 .about_social{
   margin-top: 30px;
-  /*margin-bottom: 20px;*/
 }
 .about_copy{
   width: 480px;
 }
 .about_copy p{
   font-size: 16px;
-  font-weight: 400;
-  color: black;
+  font-weight: normal;
+  color:  rgb(48, 0, 208);
   line-height: 1.7;
 }
 .about_h1{
   font-size: 48px;
   font-weight: bold;
-  color: rgb(187, 187, 187);
+  color:  rgb(48, 0, 208);
   margin-left: -4px;
   margin-top: 50px;
   margin-bottom: 50px;
 
   z-index: -10;
 }
-.about_img{
-  width: 90%;
-  height: 500px;
-  background-color: rgb(177, 177, 177);
-  margin-left: 0;
-  margin-bottom: 50px;
-  background-image: url(../assets/profile.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: bottom;
-}
+
 .about_col2, .about_col3{
   margin-left: 50px;
 }
 .about_col2 h3{
   text-decoration: underline;
+  color:  rgb(48, 0, 208);
 }
 .about_col2 a{
   text-decoration: none;
 }
 .about_col2 p{
-  color: black;
   line-height: 1.7;
-}
+  color: rgb(48, 0, 208);
+  font-weight: normal;
 
+}
+.about_col3{
+  line-height: 1.7;
+  color:  rgb(48, 0, 208);
+}
 #cv_link{
   font-size: 16px;
   font-weight: 200;
@@ -80,37 +83,22 @@ body{
   margin-top: 0;
 }
 body {
-    padding-top: 60px;
     overflow-y: hidden;
     overflow-x: hidden;
 }
 header {
     background: transparent;
-    height: 60px;
+    height: 70px;
     position: fixed;
     top: 0;
     transition: top 0.2s ease-in-out;
     width: 100%;
     z-index: 200000;
 }
-
-/*#top_btn{
-  display:none;
-}*/
-.landing{
-  background-color: #128342;
+.parallax-window {
+    min-height:80vh;
+    background: transparent;
 }
-
-/*.landing-banner{
-  background-color: #491AD9;
-  background-image: url('../work/synthesis/brochure_img.jpg');
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  width: 100%;
-  height: 400px;
-}*/
 
 .content{
   background-color: #a4c2f4;
@@ -129,19 +117,7 @@ header {
     width: 100%;
 }
 @media only screen and (max-width: 420px) {
-  /*ul{
-    display: none;
-  }
-  #top_btn{
-    display: block;
-    color: black;
-  -webkit-transition: ease .3s;
 
-    transition: ease .3s;
-  }
-  #top_btn:hover{
-    color: #707070;
-  }*/
   .about_copy{
     width: 300px;
   }
