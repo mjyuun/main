@@ -77,9 +77,7 @@ header {
   font-size: 28px;
   font-weight: bold;
 }
-.topnav a:hover {
-color: rgb(48, 0, 208);
-}
+
 
 .container {
     display: inline-block;
@@ -250,7 +248,7 @@ background-color: #26ffab;
   font-weight: 400;
   font-size: 12px;
   margin-top: 5px;
-  color: rgb(48, 0, 208);
+  color: black;
 }
 
 .footer_text{
@@ -293,6 +291,14 @@ background-color: #26ffab;
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+  .work_ui{
+    margin-top: 70px;
+    margin-bottom: 70px;
+    width: 100%;
+  }
+  .footer_text{
+    display: block;
   }
 }
 @media only screen and (max-width: 720px) {
@@ -398,11 +404,7 @@ background-color: #26ffab;
     margin-top: 20px;
     margin-bottom: 20px;
   }
-  .footer_text{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+
   .email{
     margin-left: 0px;
   }

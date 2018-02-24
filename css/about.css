@@ -111,7 +111,9 @@ header {
   float: left;
   color: #aaaaaa;
 }
-
+.copyrights{
+  color: black;
+}
 /*media query starts here*/
 [class*="col-"] {
     width: 100%;
