@@ -340,6 +340,11 @@ background-color: #26ffab;
   justify-content: center;
   align-items: center;
 }
+.work_ui{
+  margin-top: 70px;
+  margin-bottom: 70px;
+  width: 100%;
+}
 @media only screen and (min-width: 600px) {
     /* For tablets: */
     .col-m-1 {width: 8.33%;}
