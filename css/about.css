@@ -23,12 +23,7 @@ body{
   margin-top: 50px;
   margin-right: 5%
 }
-.topnav a{
-  text-decoration: none;
-  color: rgb(48, 0, 208);
-  -webkit-transition:ease, .3s;
-  transition: ease, .3s;
-}
+
 .about_social{
   margin-top: 30px;
 }
@@ -113,13 +108,14 @@ header {
 }
 .copyrights{
   color: black;
+  text-align: center;
+  width: 100%;
 }
 /*media query starts here*/
 [class*="col-"] {
     width: 100%;
 }
 @media only screen and (max-width: 420px) {
-
   .about_copy{
     width: 300px;
   }
@@ -148,19 +144,6 @@ header {
 }
 
 @media only screen and (max-width: 520px) {
-  /*ul{
-    display: none;
-  }
-  #top_btn{
-    display: block;
-    color: black;
-  -webkit-transition: ease .3s;
-
-    transition: ease .3s;
-  }
-  #top_btn:hover{
-    color: #707070;
-  }*/
   .about_landing{
     width: 100%;
   }
@@ -173,6 +156,11 @@ header {
   .about_col2, .about_col3{
     margin-left: 25%;
   }
+  .parallax-window {
+      min-height:70vh;
+      background: transparent;
+  }
+
 }
 @media only screen and (max-width: 850px) {
 .footer_copyrights{
@@ -192,7 +180,7 @@ header {
   width:100%;
   display: flex;
   flex-direction: column;
-  margin-bottom: 30px;
+  margin-bottom: 5px;
 }
 
 @media only screen and (min-width: 600px) {

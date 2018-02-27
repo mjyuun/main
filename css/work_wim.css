@@ -114,12 +114,7 @@ padding-right: 8%;
   margin-top: 10px;
   margin-bottom: 10px;
 }
-.copyrights{
-  font-weight: 400;
-  font-size: 12px;
-  margin-top: 5px;
-  color: black;
-}
+
 /*media query starts here*/
 [class*="col-"] {
     width: 100%;
