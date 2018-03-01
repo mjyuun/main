@@ -47,9 +47,9 @@ body{
   z-index: -10;
 }
 
-.about_col2, .about_col3{
+/*.about_col2, .about_col3{
   margin-left: 50px;
-}
+}*/
 .about_col2 h3{
   text-decoration: underline;
   color: #383838;
@@ -134,12 +134,9 @@ header {
     flex-direction: column;
   }
   .about_col2{
-    margin-top: 30px;
     margin-bottom: 30px;
   }
-  .about_col2, .about_col3{
-    margin-left: 50%;
-  }
+
 }
 
 @media only screen and (max-width: 520px) {
@@ -152,9 +149,7 @@ header {
   .about_social{
     visibility: hidden;
   }
-  .about_col2, .about_col3{
-    margin-left: 25%;
-  }
+
   .parallax-window {
       min-height:70vh;
       background: transparent;
