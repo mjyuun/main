@@ -47,7 +47,7 @@ header {
   width: 0;
   height: 100%;
   transition: height .3s;
-  background: rgb(48, 0, 208);
+  background: #f4e242;
 }
 
 .parallax-window {
@@ -59,7 +59,7 @@ header {
     align-items: center;
 }
 .intro_title{
-    color: rgb(48, 0, 208);
+    color: #383838;
     font-size: 32px;
     width: 320px;
     text-align: center;
@@ -105,7 +105,7 @@ header {
 
 .topnav a{
   text-decoration: none;
-  color: rgb(48, 0, 208);
+  color: black;
   font-size: 18px;
 
   -webkit-transition:ease, .3s;
@@ -159,7 +159,9 @@ header {
   position: relative;
   margin-top: 50px;
 }
-
+.work_main_img{
+  margin-top: 30px;
+}
 /*portfolio ITEM*/
 
 .each_work_entire{
@@ -223,14 +225,50 @@ padding:20px;
 background-color: white;
 }
 
-
 /*footer section */
-footer{
+.photo_container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   padding-left: 5%;
   padding-right: 5%;
-  padding-top: 20px;
-  padding-bottom: 20px;
+}
+footer{
+  width: 100%;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 80px;
+  margin-top: 30px;
   /*border-top: 1px solid #ededed;*/
+}
+#backToTop{
+  float: right;
+  margin-top: 30px;
+}
+/*btn*/
+.last_btn{
+  width: 100%;
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+  margin-bottom: 60px;
+}
+.btn{
+  font-size: 14px;
+  font-weight: 400;
+  color: rgb(88, 88, 88);
+  text-decoration: none;
+}
+.next_btn{
+  margin-top: 10px;
+}
+.btn a:link{
+  text-decoration: none;
+}
+.last_btn_wrapper{
+  padding-left: 1.5%;
 }
 
 .footer_copyrights{
@@ -263,14 +301,24 @@ background-color: #26ffab;
 
 .ic_social{
   width: 18px;
-  margin-left: 20px;
   margin-right: 2px;
   margin-top: 2px;
 
   -webkit-transition: ease .3s; /* Safari */
    transition: ease .3s;
  }
-
+ .email{
+   padding-left: 2px;
+ }
+.instagram{
+  margin-left: 30px;
+}
+.linkedin{
+  margin-left: 30px;
+}
+.behance{
+  margin-left: 30px;
+}
 .ic_social:hover{
   transform: scale(1.2);
 }
@@ -284,7 +332,7 @@ background-color: #26ffab;
     width: 100%;
 }
 
-@media only screen and (max-width: 390px) {
+@media only screen and (max-width: 400px) {
   .logo_name{
     font-size: 22px;
   }
@@ -309,6 +357,9 @@ background-color: #26ffab;
       justify-content: center;
       /*padding-left: 10%;*/
       align-items: center;
+  }
+  .last_btn{
+    display: block;
   }
 }
 @media only screen and (max-width: 720px) {

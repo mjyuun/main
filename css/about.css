@@ -33,13 +33,13 @@ body{
 .about_copy p{
   font-size: 16px;
   font-weight: normal;
-  color:  rgb(48, 0, 208);
+  color: black;
   line-height: 1.7;
 }
 .about_h1{
   font-size: 48px;
   font-weight: bold;
-  color:  rgb(48, 0, 208);
+  color:  black;
   margin-left: -4px;
   margin-top: 50px;
   margin-bottom: 50px;
@@ -52,16 +52,15 @@ body{
 }
 .about_col2 h3{
   text-decoration: underline;
-  color:  rgb(48, 0, 208);
+  color: #383838;
 }
 .about_col2 a{
   text-decoration: none;
 }
 .about_col2 p{
   line-height: 1.7;
-  color: rgb(48, 0, 208);
+  color: #383838;
   font-weight: normal;
-
 }
 .about_col3{
   line-height: 1.7;
