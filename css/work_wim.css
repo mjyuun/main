@@ -116,37 +116,6 @@ padding-right: 8%;
 
 }
 
-/*btn*/
-.last_btn{
-  width: 100%;
-  margin-top: 30px;
-  display: flex;
-  justify-content: space-between;
-  margin-top: 100px;
-  margin-bottom: 60px;
-}
-.btn{
-  font-size: 14px;
-  font-weight: 400;
-  color: rgb(88, 88, 88);
-  text-decoration: none;
-}
-.next_btn{
-  margin-top: 10px;
-}
-.btn a:link{
-  text-decoration: none;
-}
-.backToTop{
-  text-decoration: none;
-
-}
-.backToTop a {
-  text-decoration: none;
-}
-.last_btn_wrapper{
-  padding-left: 1.5%;
-}
 
 /*media query starts here*/
 [class*="col-"] {
