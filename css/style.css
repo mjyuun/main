@@ -245,6 +245,7 @@ footer{
 #backToTop{
   float: right;
   margin-top: 30px;
+  margin-bottom: 40px;
 }
 /*btn*/
 .last_btn{
@@ -326,6 +327,7 @@ background-color: #26ffab;
 .hideme{
   opacity: 0;
 }
+
 
 /*media query starts here*/
 [class*="col-"] {

@@ -102,7 +102,15 @@ padding-right: 8%;
   line-height: 26px;
 }
 
-
+.caption{
+  font-size: 16px;
+  font-weight: 300;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  width: 450px;
+  color: rgb(83, 83, 83);
+  line-height: 26px;
+}
 .italic{
   font-style: italic;
   margin-top: 10px;
