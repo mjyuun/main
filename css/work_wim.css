@@ -14,7 +14,7 @@ body .hidden{
 }
 .flex_wrapper{
   display: flex;
-  flex-direction: row;
+  justify-content: space-between;
   width: 100%;
 }
 .flex_div{
@@ -123,7 +123,16 @@ padding-right: 8%;
   margin-bottom: 10px;
 
 }
-
+.team{
+  margin-top: 50px;
+}
+.button_wrapper{
+  display: flex;
+  margin-top: 30px;
+}
+.button_wrapper a{
+  height: 60px;
+}
 
 /*media query starts here*/
 [class*="col-"] {
@@ -155,6 +164,7 @@ padding-right: 8%;
   .body_notification{
     font-size: 16px;
   }
+
 }
 @media only screen and (max-width: 870px) {
   .body_text_container{
