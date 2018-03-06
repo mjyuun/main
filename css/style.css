@@ -205,11 +205,11 @@ transition: 0.6s ease;
 
 .overlay {
   position: absolute;
-  top: 95%;
+  top: 0%;
   bottom: 0;
   left: 0;
   right: 0;
-  height: 5%;
+  height: 100%;
   width: 100%;
   opacity: 0;
   transition: .3s ease;
@@ -217,7 +217,7 @@ transition: 0.6s ease;
 }
 
 .work_container a:hover .overlay {
-  opacity: 1;
+  opacity: .8;
 }
 
 .portfolio-title{
