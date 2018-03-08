@@ -8,10 +8,7 @@ body .hidden{
   font-size: 16px;
   font-weight: 300;
 }
-.parallax-window {
-    min-height:80vh;
-    background: transparent;
-}
+
 .flex_wrapper{
   display: flex;
   justify-content: space-between;
@@ -33,11 +30,18 @@ body .hidden{
   width: 100%;
 }
 .body_text_container{
+  margin-top: 80px;
   margin-bottom: 50px;
   display: flex;
+  width: 100%;
   justify-content: space-between;
 }
-
+.caption_wrapper{
+  width: 100%;
+}
+.gehry_img{
+  margin-bottom: 20px;
+}
 .work_last{
   margin-bottom: 100px;
 }
@@ -53,14 +57,16 @@ body .hidden{
 .company_title:hover{
   color: darkgray;
 }
-
-.project_text_container{
-margin-top: 50px;
-display: block;
-align-items: center;
-padding-left: 8%;
-padding-right: 8%;
+.photo_container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-left: 8%;
+  padding-right: 8%;
+  margin-top: 50px;
 }
+
 .project_title{
   font-size: 18px;
   color: black;
@@ -93,7 +99,19 @@ padding-right: 8%;
   width: 450px;
   margin-bottom: 10px;
 }
-
+.photo_caption{
+  font-size: 14px;
+  font-weight: 300;
+  margin-bottom: 30px;
+}
+.photo_caption a{
+  font-size: 14px;
+  color: black;
+  cursor: pointer;
+}
+.photo_caption a:hover{
+  color: gray;
+}
 .bodycopy{
   font-size: 16px;
   font-weight: 200;
@@ -105,7 +123,7 @@ padding-right: 8%;
 .caption{
   font-size: 16px;
   font-weight: 300;
-  margin-top: 10px;
+  margin-top: 30px;
   margin-bottom: 20px;
   width: 450px;
   color: rgb(83, 83, 83);
@@ -171,6 +189,7 @@ padding-right: 8%;
     display: flex;
     flex-direction: column;
     width: 100%;
+    margin-top: 25px;
   }
   .footer_text{
     display: block;

@@ -13,22 +13,23 @@
     background: #e5e5e5;
 }
 body{
-  background-color: #f9f9f9;
+  background-color: white;
 }
 .about_main{
   margin-bottom: 70px;
-  margin-left: 5%;
-  display: flex;
-  justify-content: space-between;
-  margin-top: 50px;
-  margin-right: 5%
+  margin-left: 8%;
+  display: inline-flex;
+  /*justify-content: space-between;*/
+  margin-top: 100px;
+  margin-right: 8%
 }
 
 .about_social{
   margin-top: 30px;
 }
 .about_copy{
-  width: 480px;
+  width: 500px;
+  margin-left: 40px;
 }
 .about_copy p{
   font-size: 16px;
@@ -89,10 +90,6 @@ header {
     width: 100%;
     z-index: 200000;
 }
-.parallax-window {
-    min-height:80vh;
-    background: transparent;
-}
 
 .content{
   background-color: #a4c2f4;
@@ -129,7 +126,8 @@ header {
 @media only screen and (max-width: 980px) {
   .about_main{
     margin-bottom: 70px;
-    margin-left: 5%;
+    margin-left: 8%;
+    margin-right: 8%;
     display: flex;
     flex-direction: column;
   }
