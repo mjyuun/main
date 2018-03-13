@@ -28,8 +28,8 @@ body{
   margin-top: 30px;
 }
 .about_copy{
-  width: 500px;
-  margin-left: 40px;
+  width: 600px;
+  margin-top: 20px;
 }
 .about_copy p{
   font-size: 16px;
@@ -110,6 +110,20 @@ header {
   color: black;
   text-align: center;
   width: 100%;
+}
+
+.body_wrapper{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 150px;
+}
+.profile_photo_wrapper{
+  padding-left: 10%;
+  padding-right: 10%;
+  margin-top: 100px;
 }
 /*media query starts here*/
 [class*="col-"] {
